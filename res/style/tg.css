@@ -17,6 +17,7 @@ color: var(--tg-theme-hint-color)
 button {
 color: var(--tg-theme-text-color);
 background: var(--tg-theme-button-color);
+border-style: none;
 }
 
 body {
