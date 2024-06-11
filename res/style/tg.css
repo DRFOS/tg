@@ -15,9 +15,10 @@ color: var(--tg-theme-hint-color)
 }
 
 button {
-color: var(--tg-theme-button-color);
+color: var(--tg-theme-text-color);
+background: var(--tg-theme-button-color);
 }
 
 body {
-bgcolot: var(--tg-theme-bg-color);
+bgcolor: var(--tg-theme-bg-color);
 }
