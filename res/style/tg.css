@@ -1,11 +1,19 @@
 a {
-color: var(--tg-theme-link);
+color: var(--tg-theme-link-color);
 }
 
 h1 {
 color: var(--tg-theme-text-color);
 }
 
-p{
-color: var(--tg-theme-high)
+h3 {
+color: var(--tg-theme-text-color);
+}
+
+p {
+color: var(--tg-theme-hint-color)
+}
+
+button {
+color: var(--tg-theme-button-color);
 }
