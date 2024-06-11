@@ -1,3 +1,11 @@
 a {
-color: tg.link.color;
+color: var(--tg-theme-link);
+}
+
+h1 {
+color: var(--tg-theme-text-color);
+}
+
+p{
+color: var(--tg-theme-high)
 }
