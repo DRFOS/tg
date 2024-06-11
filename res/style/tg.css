@@ -17,3 +17,7 @@ color: var(--tg-theme-hint-color)
 button {
 color: var(--tg-theme-button-color);
 }
+
+body {
+bgcolot: var(--tg-theme-bg-color);
+}
