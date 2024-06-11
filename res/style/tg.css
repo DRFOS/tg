@@ -19,6 +19,7 @@ color: var(--tg-theme-text-color);
 background: var(--tg-theme-button-color);
 border-style: none;
 width: 100%;
+roundness: 25%;
 }
 
 body {
