@@ -1,6 +1,9 @@
-.container{
+.down{
     position:absolute;
     top:50%
     left: 00%
     transform: translate(-50%, -50%);
+}
+.down a{
+color: gray;
 }
