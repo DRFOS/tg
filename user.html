@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>О вас</title>
+  <link rel="stylesheet" href="https://github.com/drfos/tg/res/style/tg.css">
+</head>
+<body>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    let tg = window.Telegram.WebApp;
+  </script>
+  <h1>Ваши данные в телеграм:</h1>
+  <script>
+    let id = tg.initDataUnsafe.user.id;
+    let username = tg.initDataUnsafe.user.username;
+    document.write (`id: ${id}`);
+    document.write (`username: ${username}`);
+  </script>
+</body>
+</html>
