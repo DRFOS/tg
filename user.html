@@ -13,10 +13,12 @@
   <script>
     let id = tg.initDataUnsafe.user.id;
     let username = tg.initDataUnsafe.user.username;
+    let name = tg.initDataUnsafe.user.first_name;
+    let familia = tg.initDataUnsafe.user.last_name;
   </script>
   <h3>
     <script>
-      document.write(`id: ${id}<br>username: ${username}`);
+      document.write(`id: <p>${id}</p><br>username: <p>@${username}</p>`);
     </script>
   </h3>
 </body>
