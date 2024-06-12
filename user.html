@@ -10,19 +10,6 @@
     let tg = window.Telegram.WebApp;
   </script>
   <h1>Ваши данные в телеграм:</h1>
-  <script>
-    let id = tg.initDataUnsafe.user.id;
-    let username = tg.initDataUnsafe.user.username;
-    let name = tg.initDataUnsafe.user.first_name;
-    let familia = tg.initDataUnsafe.user.last_name;
-  </script>
-  <h3>
-    <script>
-      document.write(`id: <p>${id}</p><br>
-      username: <p>@${username}</p><br>
-      Имя: <p>${name}</p><br>
-      Фамилия: <p>${familia}</p>);
-    </script>
-  </h3>
+  <script src="https://github.com/drfos/tg/js/user.js"></script>
 </body>
 </html>
