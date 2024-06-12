@@ -1,0 +1,27 @@
+a {
+color: var(--tg-theme-link-color);
+}
+
+h1 {
+color: var(--tg-theme-text-color);
+}
+
+h3 {
+color: var(--tg-theme-text-color);
+}
+
+p {
+color: var(--tg-theme-hint-color)
+}
+
+button {
+color: var(--tg-theme-text-color);
+background: var(--tg-theme-button-color);
+border-style: none;
+width: 100%;
+border-radius: 15px;
+}
+
+body {
+bgcolor: var(--tg-theme-bg-color);
+}
