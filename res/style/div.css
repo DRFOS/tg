@@ -7,3 +7,11 @@
 .down a{
 color: gray;
 }
+
+.user {
+border: 5px ridge #000;
+background-color: gray;
+padding: 0.5rem;
+display: flex;
+flex-direction: column;
+}
