@@ -23,7 +23,7 @@
     let user_menu = "0";
     user.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
 	if (user_menu == "0"){ //если кнопка показана 
-		document.write(`Test account<br>Hello ${name}`); //скрываем кнопку 
+		document.write(`<div class="user">Test account<br>Hello ${name}</div>`); //скрываем кнопку 
 		user_menu = "1";
 	}
   else{ //иначе
