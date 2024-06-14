@@ -22,8 +22,9 @@
     let name =  tg.initDataUnsafe.user.first_name;
     let user_menu = "0";
     user.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-	if (tg.MainButton.isVisible){ //если кнопка показана 
+	if (user_menu == "0"){ //если кнопка показана 
 		tg.MainButton.hide() //скрываем кнопку 
+		user_menu = "1";
 	}
   else{ //иначе
   	tg.MainButton.show() //показываем 
