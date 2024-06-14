@@ -22,7 +22,7 @@
   <a href="javascript:history.back();"><button><h3>Назад</h3></button></a>
   <script>
     tg.BackButton.show();
-    tg.onEvent('BackButtonClicked', function(){
+    Telegram.WebApp.onEvent('BackButtonClicked', function(){
     history.back();
     });
   </script>
