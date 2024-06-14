@@ -20,7 +20,6 @@ background: var(--tg-theme-button-color);
 border-style: none;
 width: 100%;
 border-radius: 15px;
-position:absolute;
 top:100%;
 }
 
