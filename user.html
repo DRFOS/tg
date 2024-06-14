@@ -12,15 +12,18 @@
     let id =  tg.initDataUnsafe.user.id;
     let name =  tg.initDataUnsafe.user.first_name;
     let fami =  tg.initDataUnsafe.user.last_name;
-    let premium =  tg.initDataUnsafe.user.isPremium;
-    let photo =  tg.initDataUnsafe.user.photo_url;
   </script>
   <h5>
     id: <script>document.write(`${id}`);</script><br>
     Имя: <script>document.write(`${name}`);</script><br>
     Фамилия: <script>document.write(`${fami}`);</script><br>
-    Premium: <script>document.write(`${premium}`);</script><br>
-    <script>document.write(`${photo}`);</script>
   </h5>
+  <p>А большего нам и не надо</p>
+  <button class="back"><h3>Назад</h3></button>
+  <script>
+    back.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
+	back();
+});
+  </script>
 </body>
 </html>
