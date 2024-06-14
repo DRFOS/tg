@@ -19,11 +19,6 @@
     Фамилия: <script>document.write(`${fami}`);</script><br>
   </h5>
   <p>А большего нам и не надо :></p>
-  <button id="back"><h3>Назад</h3></button>
-  <script>
-    back.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-	back();
-});
-  </script>
+  <a href="javascript:history.back();"><button><h3>Назад</h3></button></a>
 </body>
 </html>
