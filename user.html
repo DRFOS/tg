@@ -6,7 +6,7 @@
 <body>
   <h1>Что нам известно о вас?</h1>
   <h3>Только то что вы указали, либо системная бесполезная информация.</h3>
-  <h5><script>
+  <script>
     let id =  tg.initDataUnsafe.user.id;
     let name =  tg.initDataUnsafe.user.first_name;
     let fami =  tg.initDataUnsafe.user.last_name;
@@ -14,6 +14,6 @@
     let photo =  tg.initDataUnsafe.user.photo_url;
     document.write(`id: ${id}<br>Имя: ${name}<br>Фамилия: ${fami}<br>
     Есть премиум: ${premium}<br>Ваше фото: ${photo}`);
-  </script></h5>
+  </script>
 </body>
 </html>
