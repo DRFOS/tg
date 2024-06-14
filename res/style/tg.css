@@ -14,7 +14,7 @@ p {
 color: var(--tg-theme-hint-color)
 }
 
-button {
+button.back {
 color: var(--tg-theme-text-color);
 background: var(--tg-theme-button-color);
 border-style: none;
@@ -24,6 +24,16 @@ position:absolute;
 top:100%;
 }
 
+button {
+color: var(--tg-theme-text-color);
+background: var(--tg-theme-button-color);
+border: none;
+width: 100%;
+border-radius: 15px;
+position:absolute;
+top: 100%;
+}
+  
 body {
 bgcolor: var(--tg-theme-bg-color);
 }
