@@ -18,8 +18,10 @@ button.back {
 color: var(--tg-theme-text-color);
 background: var(--tg-theme-button-color);
 border-style: none;
-width: 30%;
+width: 100%;
 border-radius: 15px;
+position: absolute;
+top:90%;
 }
 
 button {
