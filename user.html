@@ -22,7 +22,9 @@
   <a href="javascript:history.back();"><button><h3>Назад</h3></button></a>
   <script>
     tg.BackButton.show();
-    tg.onEvent(backbuttonclick,
+    tg.onEvent('backbuttonclicked', function(){
+    window.location = history.back();
+    });
   </script>
 </body>
 </html>
