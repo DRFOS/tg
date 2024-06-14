@@ -4,21 +4,21 @@
   <link rel="stylesheet" href="res/style/tg.css"><!--Добавлем стиль на текст и кнопки//-->
 </head>
 <body>
-  <h1>Что нам известно о вас?</h1>
-  <h3>Только то что вы указали, либо системная бесполезная информация.</h3>
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <h1>Что нам известно о вас?</h1><!--Заголовок//-->
+  <h3>Только то что вы указали, либо системная бесполезная информация.</h3><!--бесполезная инфа//-->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script><!-- Скрипт на window.Telegram.WebApp//-->
   <script>
-    let tg = window.Telegram.WebApp;
-    let id =  tg.initDataUnsafe.user.id;
-    let name =  tg.initDataUnsafe.user.first_name;
-    let fami =  tg.initDataUnsafe.user.last_name;
+    let tg = window.Telegram.WebApp;// Сокрощаем window.Telegram.WebApp до tg
+    let id = tg.initDataUnsafe.user.id; //id пользователя
+    let name = tg.initDataUnsafe.user.first_name;//имя пользователя
+    let fami = tg.initDataUnsafe.user.last_name;//фамилия пользователя
   </script>
-  <h5>
-    id: <script>document.write(`${id}`);</script><br>
-    Имя: <script>document.write(`${name}`);</script><br>
-    Фамилия: <script>document.write(`${fami}`);</script><br>
+  <h5><!--Вся инфа//-->
+    id: <script>document.write(`${id}`);//id</script><br>
+    Имя: <script>document.write(`${name}`);//имя</script><br>
+    Фамилия: <script>document.write(`${fami}`);//фамилия</script><br>
   </h5>
-  <p>А большего нам и не надо</p>
-  <a href="javascript:history.back();"><button>Назад</button></a>
+  <p>А большего нам и не надо</p><!-- P.S.//-->
+  <a href="javascript:history.back();"><button>Назад</button></a><!-- кнока «Назад»//-->
 </body>
 </html>
