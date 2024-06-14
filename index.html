@@ -21,15 +21,14 @@
   <script>
     let name =  tg.initDataUnsafe.user.first_name;
     let user_menu = "0";
-    user.addEventListener('click' function(){
-    if (user_menu == 0){
-      document.write(`<div class="user">Profile test<br>${name}, hello!</div>`);
-      user_menu = "1";
-    } else {
-      document.write("");
-      user_menu ="0";
-    }
-    });
+    user.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
+	if (tg.MainButton.isVisible){ //если кнопка показана 
+		tg.MainButton.hide() //скрываем кнопку 
+	}
+  else{ //иначе
+  	tg.MainButton.show() //показываем 
+  }
+});
   </script>
 </body>
 </html>
