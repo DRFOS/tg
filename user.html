@@ -12,7 +12,10 @@
     let fami =  tg.initDataUnsafe.user.last_name;
     let premium =  tg.initDataUnsafe.user.isPremium;
     let photo =  tg.initDataUnsafe.user.photo_url;
-    document.write(`<h5>id: ${id}<br>Имя: ${name}<br>Фамилия: ${fami}<br>Есть премиум: ${premium}<br>Ваше фото: ${photo}</h5>`);
   </script>
+  <h5>
+    id: <script>document.write(`${id}`);</script><br>
+    Имя: <script>document.write(`${name}`);</script><br>
+  </h5>
 </body>
 </html>
