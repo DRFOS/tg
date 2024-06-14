@@ -11,16 +11,7 @@ color: var(--tg-theme-text-color);
 }
 
 p {
-color: var(--tg-theme-hint-color)
-}
-
-button.back {
-color: var(--tg-theme-text-color);
-background: var(--tg-theme-button-color);
-border-style: none;
-width: 25%;
-border-radius: 15px;
-
+color: var(--tg-theme-hint-color);
 }
 
 button {
