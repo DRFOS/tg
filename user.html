@@ -6,7 +6,9 @@
 <body>
   <h1>Что нам известно о вас?</h1>
   <h3>Только то что вы указали, либо системная бесполезная информация.</h3>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script>
+    let tg = window.Telegram.WebApp;
     let id =  tg.initDataUnsafe.user.id;
     let name =  tg.initDataUnsafe.user.first_name;
     let fami =  tg.initDataUnsafe.user.last_name;
@@ -16,6 +18,9 @@
   <h5>
     id: <script>document.write(`${id}`);</script><br>
     Имя: <script>document.write(`${name}`);</script><br>
+    Фамилия: <script>document.write(`${fami}`);</script><br>
+    Premium: <script>document.write(`${premium}`);</script><br>
+    <script>document.write(`${photo}`);</script>
   </h5>
 </body>
 </html>
