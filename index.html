@@ -10,7 +10,6 @@
   <script src="https://telegram.org/js/telegram-web-app.js">//скрипт на "window.Telegram.WebApp"</script>
   <script>
     let tg = window.Telegram.WebApp;//Записал window.Telelgram.Web.App в переменную tg, дабы использовать в начале "tg.чтото"
-    tg.BackButton.hide();
   </script>
   <h1 align="center">DRF OS</h1>
   <hr size="5">
@@ -18,21 +17,5 @@
   <a href="news.html"><button><h3>сдесь</h3></button></a>
   Скачать:
   <a href="download/"><button><h3>Скачать</h3></button></a></h3>
-  <button id="user">user</button>
-  <script>
-    let name =  tg.initDataUnsafe.user.first_name;
-    let user_menu = "0";
-    user.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-	if (user_menu == "0"){ //если кнопка показана 
-		document.write(`<div class="user">Test account<br>Hello ${name}. lol</div>`); //скрываем кнопку 
-		user_menu = "1";
-	}
-  else{ //иначе
-  	document.write("close");//показываем 
-	user_menu = "0";
-  }
-});
-  </script>
-<a href="setting.html">lol</a>
 </body>
 </html>
