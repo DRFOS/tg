@@ -8,7 +8,9 @@
   <script>
     let tg = window.Telegram.WebApp;
     tg.BackButton.show();
-    Telegram.WebApp.onClick(history.back());
+    Telegram.WebApp.onClick(function(){
+      tg.showAlert("lol");
+    });
   </script>
 </body>
 </html>
