@@ -11,7 +11,9 @@
   <script>
     let tg = window.Telegram.WebApp;//Записал window.Telelgram.Web.App в переменную tg, дабы использовать в начале "tg.чтото"
     tg.BackButton.show();
-    tg.BackButon.onClick(function(),
+    tg.BackButton.onClick(function() {
+      tg.showAlert("lol not back");
+      });
   </script>
   <h1 align="center">DRF OS</h1>
   <hr size="5">
