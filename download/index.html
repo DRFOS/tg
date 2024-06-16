@@ -7,6 +7,10 @@
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script>
     let tg = window.Telegram.WebApp;
+    tg.BackButton.show();
+    tg.BackButton.onClick(function() {
+      history.back();
+    });
   </script>
   <h1>Скачать последнюю версию DRFOS:</h1>
   <h3>Скачать последнюю версию DRFOS можно сдесь, нажав на кнопку ниже.</h3>
