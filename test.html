@@ -10,9 +10,7 @@
     tg.BackButton.show();
     let close;
     tg.BackButton.onClick(function() {
-      tg.showConfirm("Уверен?", close);
-      sleep(5);
-      document.write(`${close}`);
+      history.back();
     });
     tg.SettingButton.show();
     tg.SettingButton.onClick(function() {
