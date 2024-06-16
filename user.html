@@ -11,7 +11,12 @@
     let tg = window.Telegram.WebApp;// Сокрощаем window.Telegram.WebApp до tg
     let id = tg.initDataUnsafe.user.id; //id пользователя
     let name = tg.initDataUnsafe.user.first_name;//имя пользователя
-    let fami = tg.initDataUnsafe.user.last_name;//фамилия пользователя
+    let fami = tg.initDataUnsafe.user.last_name;//фамилия пользователя 
+    tg.BackButton.show();
+    tg.BackButton.onClick(function() {
+      tg.showAlert("Внимание, вы покидаете личный кабинет!")
+      history.back(); 
+    });
   </script>
   <h5><!--Вся инфа//-->
     id: <script>document.write(`${id}`);//id</script><br>
