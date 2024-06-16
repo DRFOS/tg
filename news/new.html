@@ -7,6 +7,10 @@
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script>
     let tg = window.Telegram.WebApp;
+    tg.BackButton.show();
+    tg.BackButton.onClick(function() {
+      history.back();
+    });
   </script>
   <h1>Нововведения в новую версию</h1>
   <h3>В версии 0.1.0, будет заложен фундамент а также созданны основные функции системы таки как:
