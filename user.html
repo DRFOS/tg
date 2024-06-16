@@ -14,8 +14,10 @@
     let fami = tg.initDataUnsafe.user.last_name;//фамилия пользователя 
     tg.BackButton.show();
     tg.BackButton.onClick(function() {
-      tg.show
-      history.back(); 
+      let close = tg.showConfirm("Вы хотите покинуть личный кабинет?");
+      if (close == "true"){
+      history.back();
+      }
     });
   </script>
   <h5><!--Вся инфа//-->
