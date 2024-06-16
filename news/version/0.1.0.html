@@ -8,6 +8,10 @@
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script>
     let tg = window.Telegram.WebApp;
+    tg.BackButton.show();
+    tg.BackButoon.onClick(function() {
+      history.back();
+    });
   </script>
   <h1>DRF OS</h1>
   <table border="1" width="200">
