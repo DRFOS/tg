@@ -11,7 +11,10 @@
     tg.BackButton.onClick(function() {
       history.back();
     });
-    tg.close();
+    tg.SettingButton.show();
+    tg.SettingButton.onClick(function() {
+      tg.showAlert("lol");
+    });
   </script>
 </body>
 </html>
