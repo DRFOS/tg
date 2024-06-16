@@ -9,7 +9,7 @@
     let tg = window.Telegram.WebApp;
     tg.BackButton.show();
     tg.BackButton.onClick(function() {
-      let back = tg.showConfirm("Уверен?");
+      tg.showConfirm("Уверен?");
       tg.showAlert(back);
     });
     tg.SettingButton.show();
