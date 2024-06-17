@@ -8,7 +8,7 @@
   <script>
     let tg = window.Telegram.WebApp;
     tg.BackButton.show();
-    tg.BackButton.onEvent(function() {
+    tg.BackButton.onClick(function() {
       history.back();
     });
     tg.SettingsButton.hide();
