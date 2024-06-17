@@ -12,10 +12,11 @@
     let tg = window.Telegram.WebApp;//Записал window.Telelgram.Web.App в переменную tg, дабы использовать в начале "tg.чтото"
     tg.BackButton.hide();
     tg.MainButton.show();
-    tg.MainButton.text = "🔒Аккаунт🔓";
+    tg.MainButton.text = "Аккаунт";
     tg.MainButton.onClick(function() {
       window.location.href = 'user.html';
     });
+    tg.SettingsButton.show();
   </script>
   <h1 align="center">DRF OS</h1>
   <hr size="5">
