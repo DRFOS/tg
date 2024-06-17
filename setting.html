@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="res/style/tg.css">
+</head>
+<body>
+  <script src="https://telegram.irg/js/telegram-web-app.js"></script>
+  <script>
+    let tg = window.Telegram.WebApp;
+    tg.BackButton.show();
+    tg.BackButton.onEvent(function() {
+      history.back();
+    });
+    tg.SettingButtin.show();
+  </script>
+  <h1>Setting</h1>
+</body>
+</html>
