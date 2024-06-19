@@ -8,7 +8,7 @@
 
 # 0.0.1
  - Создано первое приложение `Настройки`
- - Созданы: <details><summary>Папка `system`[^system]</summary>`system`,`button.1`</details>
+ - Созданы: <details><summary>Папка `system` [^system]</summary>`system`,`button.1`</details>
  и <details><summary>Папка `app`[^app]</summary> `setting.com`</details>
  
 >[!TIP]
