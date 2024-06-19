@@ -11,14 +11,9 @@
   <script>
     let tg = window.Telegram.WebApp;//Записал window.Telelgram.Web.App в переменную tg, дабы использовать в начале "tg.чтото"
     tg.BackButton.hide();
-    tg.MainButton.show();
-    tg.MainButton.text = "Аккаунт";
-    tg.MainButton.onClick(function(){
-      window.location.href = "user.html";
-    });
     tg.SettingsButton.show();
     tg.SettingsButton.onClick(function() {
-      window.location.href = 'setting.html';
+      window.location.href = 'user.html';
     });
   </script>
   <h1 align="center">DRF OS</h1>
