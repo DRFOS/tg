@@ -20,11 +20,8 @@
   <h1>test</h1>
   <button id="pop">popup</button>
   <script>
-    pop.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-    Telegram.WebApp.showPopup({
-      title:"lol1",
-      message: "lol 2",
-      buttons: [{ type: "destructive", text: " lol3"}], callback);
+    tg.MainButton.onClick(function(){
+    Telegram.WebApp.showPopup({title:"lol1", message: "lol 2", buttons: [{ type: "destructive", text: " lol3"}], callback);
     });
   </script>
 </body>
