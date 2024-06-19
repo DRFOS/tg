@@ -12,7 +12,7 @@
     let id = tg.initDataUnsafe.user.id; //id пользователя
     let name = tg.initDataUnsafe.user.first_name;//имя пользователя
     let fami = tg.initDataUnsafe.user.last_name;//фамилия пользователя 
-    let photo =  tg.WebAppUser.photo_url;
+    tg.SettingsButton.hide();
     tg.BackButton.show();
     tg.BackButton.onClick(function() {
       history.back();
@@ -22,8 +22,7 @@
     id: <script>document.write(`${id}`);//id</script><br>
     Имя: <script>document.write(`${name}`);//имя</script><br>
     Фамилия: <script>document.write(`${fami}`);//фамилия</script><br>
-    <script>document.write(`${photo}`);</script>
   </h5>
-  <p>А большего нам и не надо lol</p><!-- P.S.//-->
+  <p>А большего нам и не надо</p><!-- P.S.//-->
 </body>
 </html>
