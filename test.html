@@ -20,6 +20,8 @@
   <h1>test</h1>
   <button id="pop">popup</button>
   <script>
+    tg.MainButton.show();
+    tg.MainButton.text = "testing";
     tg.MainButton.onClick(function(){
     Telegram.WebApp.showPopup({title:"lol1", message: "lol 2", buttons: [{ type: "destructive", text: " lol3"}], callback);
     });
