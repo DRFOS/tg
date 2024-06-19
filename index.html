@@ -14,7 +14,7 @@
     tg.MainButton.show();
     tg.MainButton.text = "Аккаунт";
     tg.MainButton.onClick(function() {
-      window.location.href = 'user.html';
+      Telegram.WebApp.showPopup({title:"lol1", message: "lol 2", buttons: [{ type: "destructive", text: " lol3"}], callback);
     });
     tg.SettingsButton.show();
     tg.SettingsButton.onClick(function() {
