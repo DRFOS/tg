@@ -9,20 +9,13 @@
   <script src="https://telegram.org/js/telegram-web-app.js"></script><!-- Скрипт на window.Telegram.WebApp//-->
   <script>
     let tg = window.Telegram.WebApp;// Сокрощаем window.Telegram.WebApp до tg
-    let id = tg.initDataUnsafe.user.id; //id пользователя
-    let name = tg.initDataUnsafe.user.first_name;//имя пользователя
-    let fami = tg.initDataUnsafe.user.last_name;//фамилия пользователя 
     tg.SettingsButton.hide();
     tg.BackButton.show();
     tg.BackButton.onClick(function() {
       history.back();
     });
   </script>
-  <h5><!--Вся инфа//-->
-    id: <script>document.write(`${id}`);//id</script><br>
-    Имя: <script>document.write(`${name}`);//имя</script><br>
-    Фамилия: <script>document.write(`${fami}`);//фамилия</script><br>
-  </h5>
-  <p>А большего нам и не надо</p><!-- P.S.//-->
+  <h1>Политика кондефициальности</h1>
+  <h3>Наша позиция такова: мы НЕ используем ваши личные данные (если вы тх не указали в имени или фамилии вашего профиля телеграм)</h3>
 </body>
 </html>
